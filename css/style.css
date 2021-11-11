@@ -1,0 +1,83 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    padding: 0;
+    margin: 0px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+
+h1{
+    font-size: 40px;
+    color: black;
+    background-color: #00669F;
+    
+}
+
+#caja-madre{
+    display:flex;
+    background-color: white;
+    width: 960px;
+    height: 530px;
+    flex-direction: row;
+    justify-content:space-around;
+    position: relative;
+    left: 200px;
+    
+    
+
+}
+#card{
+    
+    width: 300px;
+    height: 529px;
+    position: relative;
+    background-color: #F3F3F3;
+
+
+}
+
+.descripcion{
+    font-size: 16px;
+    line-height: 18,75px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 17px 0px 16px;
+   
+    
+    
+}
+
+.foto{
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    right: 90px;
+    bottom: 53px;
+
+}
+
+h2{
+    padding-top: 73px;
+    text-align: center;
+    
+
+}
+
+.ver-mas{
+   
+    background-color: #00669F;
+    color:white;
+    font-size: 15px;
+    padding:2px 2px 2px 2px ;
+    margin: 0px 86.22px 18.48px 85px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+    
+}
